@@ -166,57 +166,6 @@
                 "source": "https://github.com/fightbulc/simplon_helper/tree/1.0.8"
             },
             "time": "2020-02-21T14:19:38+00:00"
-        },
-        {
-            "name": "simplon/mysql",
-            "version": "2.2.10",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fightbulc/simplon_mysql.git",
-                "reference": "21da390cb2b3846a2407a410486b4642501e3098"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fightbulc/simplon_mysql/zipball/21da390cb2b3846a2407a410486b4642501e3098",
-                "reference": "21da390cb2b3846a2407a410486b4642501e3098",
-                "shasum": ""
-            },
-            "require": {
-                "ext-pdo": "*",
-                "php": ">=7.1",
-                "simplon/helper": "^1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Test\\": "test/",
-                    "Simplon\\Mysql\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Tino Ehrich",
-                    "email": "tino@bigpun.me",
-                    "role": "developer"
-                }
-            ],
-            "description": "Simplon MySQL Library",
-            "homepage": "https://github.com/fightbulc/simplon_mysql",
-            "keywords": [
-                "db",
-                "manager",
-                "mysql",
-                "pdo"
-            ],
-            "support": {
-                "issues": "https://github.com/fightbulc/simplon_mysql/issues",
-                "source": "https://github.com/fightbulc/simplon_mysql/tree/master"
-            },
-            "time": "2017-11-22T10:17:02+00:00"
         }
     ],
     "packages-dev": [
